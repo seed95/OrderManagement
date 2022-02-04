@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="RegisterNewOrder_v1.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="149.37481"
+       y="65.376045"
+       width="3.7835669"
+       height="100.91531"
+       id="rect2850" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="514.04871"
+     inkscape:cy="371.09229"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-to-guides="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3442"
+       transform="translate(0,0.04692939)">
+      <rect
+         style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+         id="rect3429"
+         width="15"
+         height="10"
+         x="165.73573"
+         y="22.338861" />
+      <text
+         xml:space="preserve"
+         style="font-size:5.19212px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+         x="170.65234"
+         y="28.986752"
+         id="text3437"><tspan
+           sodipodi:role="line"
+           id="tspan3435"
+           x="170.65234"
+           y="28.986752"
+           style="text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">۱۰</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       id="text2848"
+       style="font-family:'Font Awesome 5 Brands';font-size:5.29166667px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Font Awesome 5 Brands';white-space:pre;shape-inside:url(#rect2850);" />
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect2936"
+       width="30"
+       height="16.801003"
+       x="236.01915"
+       y="18.587709" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.19212px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="239.06444"
+       y="28.326803"
+       id="text2940"><tspan
+         sodipodi:role="line"
+         id="tspan2938"
+         x="239.06444"
+         y="28.326803"
+         style="text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">آقای اکبری</tspan></text>
+    <rect
+       style="opacity:0.123708;fill:#00c549;fill-opacity:1;stroke:#7058ef;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2952"
+       width="183.67059"
+       height="26.319036"
+       x="66.582939"
+       y="45.388901" />
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect3367"
+       width="30"
+       height="12"
+       x="60.352215"
+       y="20.798994" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.19212px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="90.897675"
+       y="28.326803"
+       id="text3371"><tspan
+         sodipodi:role="line"
+         id="tspan3369"
+         x="90.897675"
+         y="28.326803"
+         style="text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">تاریخ سفارش:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.19212px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="64.221725"
+       y="28.772503"
+       id="text3375"><tspan
+         sodipodi:role="line"
+         id="tspan3373"
+         x="64.221725"
+         y="28.772503"
+         style="text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">۱۴۰۰/۲/۲۱</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="47.819897"
+       y="22.177288"
+       id="text3379"><tspan
+         sodipodi:role="line"
+         id="tspan3377"
+         x="47.819897"
+         y="22.177288"
+         style="font-size:2.82222px;text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">قابل تغییر</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="59.461563"
+       y="27.468954"
+       id="text3383"><tspan
+         sodipodi:role="line"
+         id="tspan3381"
+         x="59.461563"
+         y="27.468954"
+         style="font-size:2.82222px;text-align:end;direction:ltr;text-anchor:end;stroke-width:0.264583">دیفالت روزی که ثبت میکنیم</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.19212px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:ltr;text-anchor:end;stroke-width:0.264583"
+       x="267.11029"
+       y="28.326803"
+       id="text3387"><tspan
+         sodipodi:role="line"
+         id="tspan3385"
+         x="267.11029"
+         y="28.326803"
+         style="text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">متعامل:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82222px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:ltr;text-anchor:end;stroke-width:0.264583"
+       x="277.491"
+       y="16.255623"
+       id="text3391"><tspan
+         sodipodi:role="line"
+         id="tspan3389"
+         x="277.491"
+         y="16.255623"
+         style="font-size:2.82222px;text-align:end;direction:ltr;text-anchor:end;stroke-width:0.264583">قابل انتخاب از متعاملان ثبت شده توسط ادمین</tspan></text>
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect3393"
+       width="20"
+       height="10"
+       x="223.38264"
+       y="47.50703" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="226.36446"
+       y="53.726807"
+       id="text3397"><tspan
+         sodipodi:role="line"
+         id="tspan3395"
+         x="226.36446"
+         y="53.726807"
+         style="font-size:4.23333px;text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">کد طرح</tspan></text>
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect3399"
+       width="20"
+       height="10"
+       x="193.74933"
+       y="47.50703" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="195.14366"
+       y="53.726807"
+       id="text3403"><tspan
+         sodipodi:role="line"
+         id="tspan3401"
+         x="195.14366"
+         y="53.726807"
+         style="font-size:4.23333px;text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">رنگ زمینه</tspan></text>
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect3405"
+       width="20"
+       height="10"
+       x="163.05762"
+       y="47.50703" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="168.6853"
+       y="53.726807"
+       id="text3409"><tspan
+         sodipodi:role="line"
+         id="tspan3407"
+         x="168.6853"
+         y="53.726807"
+         style="font-size:4.23333px;text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">اندازه</tspan></text>
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect3411"
+       width="20"
+       height="10"
+       x="131.30759"
+       y="47.50703" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:center;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:middle;stroke-width:0.264583"
+       x="141.35262"
+       y="53.726807"
+       id="text3415"><tspan
+         sodipodi:role="line"
+         id="tspan3413"
+         x="141.35262"
+         y="53.726807"
+         style="font-size:4.23333px;text-align:center;direction:rtl;text-anchor:middle;stroke-width:0.264583">تعداد</tspan></text>
+    <rect
+       style="fill:#a8a8a8;fill-opacity:1;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="rect3417"
+       width="60"
+       height="8"
+       x="183.10243"
+       y="60.921047" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="225.83514"
+       y="65.897644"
+       id="text3421"><tspan
+         sodipodi:role="line"
+         id="tspan3419"
+         x="225.83514"
+         y="65.897644"
+         style="font-size:3.52778px;text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">توضیحات</tspan></text>
+    <circle
+       style="opacity:0.123708;fill:#00c549;stroke:#7058ef;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;paint-order:fill markers stroke"
+       id="path3423"
+       cx="151.80997"
+       cy="82.958397"
+       r="5.7500005" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.99722px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="149.29745"
+       y="84.838387"
+       id="text3427"><tspan
+         sodipodi:role="line"
+         id="tspan3425"
+         x="149.29745"
+         y="84.838387"
+         style="font-size:5.99722px;text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.19212px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:end;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:end;stroke-width:0.264583"
+       x="184.61464"
+       y="28.724384"
+       id="text3433"><tspan
+         sodipodi:role="line"
+         id="tspan3431"
+         x="184.61464"
+         y="28.724384"
+         style="text-align:end;direction:rtl;text-anchor:end;stroke-width:0.264583">شماره سفارش</tspan></text>
+    <rect
+       style="opacity:0.123708;fill:#00c549;fill-opacity:1;stroke:#7058ef;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect3444"
+       width="39.5"
+       height="11.500001"
+       x="66.582939"
+       y="167.09726" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:'Font Awesome 5 Brands';-inkscape-font-specification:'Font Awesome 5 Brands';text-align:center;letter-spacing:0px;word-spacing:0px;direction:rtl;text-anchor:middle;stroke-width:0.264583"
+       x="86.274025"
+       y="173.93866"
+       id="text3448"><tspan
+         sodipodi:role="line"
+         id="tspan3446"
+         x="86.274025"
+         y="173.93866"
+         style="font-size:4.23333px;text-align:center;direction:rtl;text-anchor:middle;stroke-width:0.264583">ثبت نهایی سفارش</tspan></text>
+  </g>
+</svg>
