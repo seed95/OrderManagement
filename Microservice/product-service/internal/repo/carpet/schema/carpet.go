@@ -14,15 +14,19 @@ type (
 	}
 )
 
-func CarpetToModel(c *Carpet) *model.Carpet {
-	return &model.Carpet{
+func CarpetToProduct(c *Carpet) *model.Product {
+	return &model.Product{
 		DesignCode: c.DesignCode,
 		Color:      c.Color,
 		Sizes:      []string{c.Dimension},
 	}
 }
 
-func CarpetToSchema(c *model.Carpet) []Carpet {
+func ProductToCarpets(c *model.Product) []Carpet {
+	if len(c.Sizes) == 0 {
+		return []Carpet{{}}
+	}
+
 	result := make([]Carpet, len(c.Sizes))
 
 	for i, s := range c.Sizes {

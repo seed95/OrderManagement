@@ -1,7 +1,7 @@
 package model
 
 type (
-	Carpet struct {
+	Product struct {
 		DesignCode string
 		Color      string
 		Sizes      []string

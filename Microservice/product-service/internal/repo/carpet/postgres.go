@@ -67,12 +67,22 @@ func (r *carpetRepo) migration() error {
 
 }
 
-func (r *carpetRepo) NewCarpet(c *model.Carpet) error {
+// CreateCarpet add one row for each size of product
+func (r *carpetRepo) CreateCarpet(product *model.Product) error {
 
-	carpets := schema.CarpetToSchema(c)
+	if product == nil {
+		return derror.NilCarpet
+	}
+
+	carpets := schema.ProductToCarpets(product)
 
 	if err := r.db.Create(carpets).Error; err != nil {
 		return derror.New(derror.InternalServer, err.Error())
 	}
 	return nil
+}
+
+func (r *carpetRepo) GetAllCarpets() ([]model.Product, error) {
+	//TODO implement me
+	panic("implement me")
 }

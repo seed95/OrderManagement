@@ -49,6 +49,11 @@ var (
 		message: "unknown_error",
 		code:    StatusUnknown,
 	}
+
+	NilCarpet = serviceError{
+		message: "nil_carpet",
+		code:    http.StatusBadRequest,
+	}
 )
 
 // Create error message formats

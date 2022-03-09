@@ -12,7 +12,7 @@ func NewCarpetRepoMock() (*carpetRepo, error) {
 
 	mock := carpetRepo{
 		config: &internal.PostgresConfig{
-			PostgresUri: "host=localhost user=dadashi password=dadashi@1400 dbname=dev_db port=5432 sslmode=disable",
+			PostgresUri: "host=localhost user=seed password=seed@1400 dbname=dev_db port=5432 sslmode=disable",
 		},
 	}
 

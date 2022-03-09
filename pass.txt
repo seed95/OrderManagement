@@ -2,8 +2,8 @@ Postgres:
 username: postgres
 password: postgres
 
-username: dadashi
-password: dadashi@1400
+username: seed
+password: seed@1400
 
 username: dev
 password: om@dev#1400
