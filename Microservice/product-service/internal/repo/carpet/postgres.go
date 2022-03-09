@@ -84,5 +84,10 @@ func (r *carpetRepo) CreateCarpet(product *model.Product) error {
 
 func (r *carpetRepo) GetAllCarpets() ([]model.Product, error) {
 	//TODO implement me
-	panic("implement me")
+
+	var carpets []schema.Carpet
+
+	if err := r.db.Find(&carpets).Error; err != nil {
+		return nil, derror.New(derror.InternalServer, err.Error())
+	}
 }

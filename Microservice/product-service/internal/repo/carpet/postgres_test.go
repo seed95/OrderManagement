@@ -61,19 +61,23 @@ func TestCreateCarpet_Nil(t *testing.T) {
 
 }
 
-func TestGetAllCarpets_(t *testing.T) {
+func TestGetAllCarpets_Empty(t *testing.T) {
 	repo, err := NewCarpetRepoMock()
 	if err != nil {
 		t.Fatal(err)
 	}
 
-	c1 := model.Product{
-		DesignCode: random.StringWithCharset(5, "0123456789"),
-		Color:      "قرمز",
-		Sizes:      []string{"8"},
-	}
+	//dCode1 := random.StringWithCharset(5, "0123456789")
+	//dCode2 := random.StringWithCharset(5, "0123456789")
+	//
+	//c1 := model.Product{
+	//	DesignCode: dCode1,
+	//	Color:      "قرمز",
+	//	Sizes:      []string{"8"},
+	//}
 
-	err = repo.CreateCarpet(&c1)
+	carpets, err := repo.GetAllCarpets()
 	assert.Nil(t, err)
+	assert.Equal(t, carpets, []model.Product{})
 
 }

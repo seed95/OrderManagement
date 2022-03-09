@@ -17,6 +17,36 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
+    <rect
+       x="1303.7139"
+       y="-42.870646"
+       width="807.14298"
+       height="457.14285"
+       id="rect101413" />
+    <rect
+       x="1631.3998"
+       y="105.29994"
+       width="374.78476"
+       height="211.83145"
+       id="rect91753" />
+    <rect
+       x="1456.9658"
+       y="110.01583"
+       width="550.38777"
+       height="248.83745"
+       id="rect86899" />
+    <rect
+       x="1352.5717"
+       y="162.10414"
+       width="632.81445"
+       height="211.7967"
+       id="rect70677" />
+    <rect
+       x="1456.3436"
+       y="189.5401"
+       width="388.69989"
+       height="151.29338"
+       id="rect48236" />
     <inkscape:path-effect
        effect="bspline"
        id="path-effect1158"
@@ -54,8 +84,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="1648.0639"
-     inkscape:cy="103.54064"
+     inkscape:cx="1643.0131"
+     inkscape:cy="173.24116"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -784,24 +814,177 @@
        height="120.95238"
        x="344.94098"
        y="-11.342858" />
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="flowRoot174"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:0.5;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;letter-spacing:0px;word-spacing:0px;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
-       transform="matrix(0.26458333,0,0,0.26458333,29.934187,-32.606882)"><flowRegion
-         id="flowRegion176"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.5;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;direction:ltr;text-anchor:end;stroke:none;stroke-opacity:1"><rect
-           id="rect178"
-           width="797.17627"
-           height="426.99216"
-           x="1192.8572"
-           y="89.41507"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.5;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:end;direction:ltr;text-anchor:end;stroke:none;stroke-opacity:1" /></flowRegion><flowPara
-         id="flowPara184"
-         style="font-size:18.6667px;line-height:0;text-align:start;direction:rtl;text-anchor:start;stroke:none;stroke-opacity:1">- کد طرح عدد هست یا هر چیزی میتواند باشد؟ هر مقداری میتونه داشته باشه هم حروف هم اعداد</flowPara><flowPara
-         style="font-size:18.6667px;line-height:0;text-align:start;direction:rtl;text-anchor:start;stroke:none;stroke-opacity:1"
-         id="flowPara29478">- سایز فرش باید به صورت ۲.۵*۳.۵ نمایش داده شود یا به صورت ۹ متری؟ سایز فرش در حالت استاندارد که کاربر انتخاب میکند به صورت ۱۲-۹-۶ هست ولی در صورت وارد کردن مقدار دلخواه میتواند به صورت ۱.۵*۲.۲۵ وارد کند.</flowPara><flowPara
-         style="font-size:18.6667px;line-height:0;text-align:start;direction:rtl;text-anchor:start;stroke:none;stroke-opacity:1"
-         id="flowPara29482">- نیاز به توضیحات داریم یا نه؟</flowPara></flowRoot>
+       transform="scale(0.26458333)"
+       id="text48234"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect48236);fill:#000000;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text70675"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect70677)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text86897"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect86899)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="505.67654"
+       y="53.665813"
+       id="text88555"><tspan
+         sodipodi:role="line"
+         id="tspan88553"
+         style="stroke-width:0.264583"></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text101411"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;text-align:end;direction:ltr;white-space:pre;shape-inside:url(#rect101413);fill:#000000;fill-opacity:1;stroke:none"
+       x="-7.9804688"
+       y="0"><tspan
+         x="2110.8574"
+         y="-28.714844"
+         id="tspan144937"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144935"> کد طرح عدد هست یا هر چیزی میتواند باشد؟ هر مقداری میتونه داشته باشه هم حروف هم اعداد
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="-8.7148438"
+         id="tspan144953"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144939">- سایز فرش باید به صورت </tspan><tspan
+           dx="-32.445312"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144941">۲.۵</tspan><tspan
+           dx="-5.0859375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144943">*</tspan><tspan
+           dx="-38.273438"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144945">۳.۵</tspan><tspan
+           dx="-5.0859375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144947"> نمایش داده شود یا به صورت </tspan><tspan
+           dx="-18.765625"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144949">۹</tspan><tspan
+           dx="8.59375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144951"> متری؟ سایز فرش در حالت استاندارد که کاربر انتخاب </tspan></tspan><tspan
+         x="2110.8574"
+         y="11.285156"
+         id="tspan144977"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144955">میکند به صورت </tspan><tspan
+           dx="-27.359375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144957">۱۲</tspan><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144959">-</tspan><tspan
+           dx="-20.140625"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144961">۹</tspan><tspan
+           dx="8.59375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144963">-</tspan><tspan
+           dx="-20.140625"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144965">۶</tspan><tspan
+           dx="8.59375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144967"> هست ولی در صورت وارد کردن مقدار دلخواه میتواند به صورت </tspan><tspan
+           dx="-32.445312"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144969">۱.۵</tspan><tspan
+           dx="-5.0859375"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144971">*</tspan><tspan
+           dx="-46.867188"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144973">۲.۲۵</tspan><tspan
+           dx="-13.679688"
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144975"> وارد کند.
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="31.285156"
+         id="tspan144981"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144979">- نیاز به توضیحات داریم یا نه؟
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="51.285156"
+         id="tspan144985"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144983">قابلیت سرچ کردن روی محصولات اضافه شده؟
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="71.285156"
+         id="tspan144989"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144987">شیسبشسی
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="91.285156"
+         id="tspan144993"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144991">
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="111.28516"
+         id="tspan144997"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144995">شبشسبی
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="131.28516"
+         id="tspan145001"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan144999">شسی
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="151.28516"
+         id="tspan145005"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145003">ب
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="171.28516"
+         id="tspan145009"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145007">شسیب
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="191.28516"
+         id="tspan145013"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145011">شسی
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="211.28516"
+         id="tspan145017"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145015">ب
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="231.28516"
+         id="tspan145021"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145019">شسیب
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="251.28516"
+         id="tspan145025"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145023">شسی
+</tspan></tspan><tspan
+         x="2110.8574"
+         y="271.28516"
+         id="tspan145029"><tspan
+           style="text-align:start;direction:rtl;text-anchor:start"
+           id="tspan145027">ب</tspan></tspan></text>
   </g>
 </svg>
