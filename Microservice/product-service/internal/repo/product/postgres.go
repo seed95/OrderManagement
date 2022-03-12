@@ -75,10 +75,10 @@ func (r *productRepo) migration() error {
 }
 
 // CreateProduct add one row for each size and color of product
-func (r *productRepo) CreateProduct(product *model.Product) error {
+func (r *productRepo) CreateProduct(product *model.Product) (*model.Product, error) {
 
 	if product == nil {
-		return derror.NilProduct
+		return nil, derror.NilProduct
 	}
 
 	err := r.db.Transaction(func(tx *gorm.DB) error {
@@ -108,10 +108,10 @@ func (r *productRepo) CreateProduct(product *model.Product) error {
 	})
 
 	if err != nil {
-		return derror.New(derror.InternalServer, err.Error())
+		return nil, derror.New(derror.InternalServer, err.Error())
 	}
 
-	return nil
+	return product, nil
 }
 
 // GetAllCarpet return all carpets for `companyId` in view
@@ -134,4 +134,9 @@ func (r *productRepo) GetAllCarpet(companyId uint) ([]model.Carpet, error) {
 	}
 
 	return carpets, nil
+}
+
+func (r *productRepo) DeleteProduct(productId uint) error {
+	//TODO implement me
+	panic("implement me")
 }
