@@ -5,6 +5,6 @@ import (
 )
 
 type ProductRepo interface {
-	CreateCarpet(p *model.Product) error
-	GetAllCarpets(companyId uint) ([]model.Product, error)
+	CreateProduct(p *model.Product) error
+	GetAllCarpet(companyId uint) ([]model.Carpet, error)
 }

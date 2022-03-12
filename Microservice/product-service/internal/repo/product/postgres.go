@@ -11,6 +11,7 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"strconv"
 
 	gorm_schema "gorm.io/gorm/schema"
 )
@@ -73,8 +74,8 @@ func (r *productRepo) migration() error {
 
 }
 
-// CreateCarpet add one row for each size of product
-func (r *productRepo) CreateCarpet(product *model.Product) error {
+// CreateProduct add one row for each size and color of product
+func (r *productRepo) CreateProduct(product *model.Product) error {
 
 	if product == nil {
 		return derror.NilProduct
@@ -113,15 +114,24 @@ func (r *productRepo) CreateCarpet(product *model.Product) error {
 	return nil
 }
 
-func (r *productRepo) GetAllCarpets(companyId uint) ([]model.Product, error) {
-
-	var schemaProducts []schema.Product
-
-	if err := r.db.Where("company_id = ?", companyId).Find(&schemaProducts).Error; err != nil {
+// GetAllCarpet return all carpets for `companyId` in view
+func (r *productRepo) GetAllCarpet(companyId uint) ([]model.Carpet, error) {
+	var schemaCarpets []schema.Carpet
+	viewName := "view_carpet_company_id_" + strconv.FormatUint(uint64(companyId), 10)
+	if err := r.db.Table(viewName).Find(&schemaCarpets).Error; err != nil {
 		return nil, derror.New(derror.InternalServer, err.Error())
 	}
 
-	result := make([]model.Product, len(schemaProducts))
+	carpets := make([]model.Carpet, len(schemaCarpets))
+	for i, c := range schemaCarpets {
+		carpets[i] = model.Carpet{
+			Id:         c.Id,
+			CompanyId:  companyId,
+			DesignCode: c.DesignCode,
+			Size:       c.Size,
+			Color:      c.Color,
+		}
+	}
 
-	return result, nil
+	return carpets, nil
 }

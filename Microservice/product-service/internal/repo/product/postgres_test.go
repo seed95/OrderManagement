@@ -22,7 +22,7 @@ func TestCreateProduct_ZeroId(t *testing.T) {
 		Description: "توضیحات برای کد ۱۰۲",
 	}
 
-	err = repo.CreateCarpet(&p1)
+	err = repo.CreateProduct(&p1)
 	assert.Nil(t, err)
 
 }
@@ -44,10 +44,10 @@ func TestCreateProduct_Duplicate(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۲",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.NotNil(t, err)
 	})
 
@@ -63,7 +63,7 @@ func TestCreateProduct_Duplicate(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۳",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.NotNil(t, err)
 	})
 
@@ -79,7 +79,7 @@ func TestCreateProduct_Duplicate(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۵",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.NotNil(t, err)
 	})
 
@@ -105,7 +105,7 @@ func TestCreateProduct_Empty(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۳",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 
@@ -121,7 +121,7 @@ func TestCreateProduct_Empty(t *testing.T) {
 			Description: "توضیحات برای کد خالی",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 
@@ -137,7 +137,7 @@ func TestCreateProduct_Empty(t *testing.T) {
 			Description: "توضیحات برای کد خالی",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 
@@ -153,7 +153,7 @@ func TestCreateProduct_Empty(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۳",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 
@@ -169,7 +169,7 @@ func TestCreateProduct_Empty(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۵",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 }
@@ -192,7 +192,7 @@ func TestCreateProduct_Nil(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۵",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 
@@ -208,29 +208,88 @@ func TestCreateProduct_Nil(t *testing.T) {
 			Description: "توضیحات برای کد ۱۰۳",
 		}
 
-		err = repo.CreateCarpet(&p1)
+		err = repo.CreateProduct(&p1)
 		assert.Nil(t, err)
 	})
 
 }
 
-//func TestGetAllCarpets_Empty(t *testing.T) {
-//	repo, err := NewProductRepoMock()
-//	if err != nil {
-//		t.Fatal(err)
-//	}
-//
-//	//dCode1 := random.StringWithCharset(5, "0123456789")
-//	//dCode2 := random.StringWithCharset(5, "0123456789")
-//	//
-//	//c1 := model.Product{
-//	//	DesignCode: dCode1,
-//	//	Colors:      "قرمز",
-//	//	Dimensions:      []string{"8"},
-//	//}
-//
-//	carpets, err := repo.GetAllCarpets()
-//	assert.Nil(t, err)
-//	assert.Equal(t, carpets, []model.Product{})
-//
-//}
+func TestGetAllCarpet_Ok(t *testing.T) {
+	repo, err := NewProductRepoMock()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	companyId := uint(1)
+
+	p1 := model.Product{
+		CompanyName: "Negin",
+		CompanyId:   companyId,
+		DesignCode:  "105",
+		Colors:      []string{"قرمز", "آبی"},
+		Dimensions:  []string{"6", "9"},
+		Description: "توضیحات برای کد ۱۰۵",
+	}
+
+	err = repo.CreateProduct(&p1)
+	assert.Nil(t, err)
+
+	carpets, err := repo.GetAllCarpet(companyId)
+	assert.Nil(t, err)
+	assert.Equal(t, 4, len(carpets))
+
+}
+
+func TestGetAllCarpet_EmptyColor(t *testing.T) {
+	repo, err := NewProductRepoMock()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	companyId := uint(1)
+
+	p1 := model.Product{
+		CompanyName: "Negin",
+		CompanyId:   companyId,
+		DesignCode:  "105",
+		Colors:      []string{},
+		Dimensions:  []string{"6", "9"},
+		Description: "توضیحات برای کد ۱۰۵",
+	}
+
+	err = repo.CreateProduct(&p1)
+	assert.Nil(t, err)
+
+	carpets, err := repo.GetAllCarpet(companyId)
+	assert.Nil(t, err)
+	assert.Equal(t, 2, len(carpets))
+
+}
+
+func TestGetAllCarpet_Empty(t *testing.T) {
+	repo, err := NewProductRepoMock()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	companyId := uint(1)
+
+	carpets, err := repo.GetAllCarpet(companyId)
+	assert.Nil(t, err)
+	assert.Equal(t, 0, len(carpets))
+
+}
+
+func TestGetAllCarpet_InvalidCompanyId(t *testing.T) {
+	repo, err := NewProductRepoMock()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	companyId := uint(0)
+
+	carpets, err := repo.GetAllCarpet(companyId)
+	assert.NotNil(t, err)
+	assert.Nil(t, carpets)
+
+}
