@@ -2,8 +2,12 @@ package model
 
 type (
 	Product struct {
-		DesignCode string
-		Color      string
-		Sizes      []string
+		Id          uint
+		CompanyName string
+		CompanyId   uint
+		DesignCode  string
+		Colors      []string
+		Dimensions  []string
+		Description string
 	}
 )

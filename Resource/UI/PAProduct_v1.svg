@@ -18,6 +18,12 @@
   <defs
      id="defs2">
     <rect
+       x="2093.4783"
+       y="271.31871"
+       width="4.4955009"
+       height="46.339329"
+       id="rect10731" />
+    <rect
        x="1303.7139"
        y="-42.870646"
        width="807.14298"
@@ -83,17 +89,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="1643.0131"
-     inkscape:cy="173.24116"
+     inkscape:zoom="1.4"
+     inkscape:cx="1879.6429"
+     inkscape:cy="118.57143"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1043"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:snap-to-guides="true"
      inkscape:pagecheckerboard="0" />
@@ -837,7 +843,7 @@
        id="text88555"><tspan
          sodipodi:role="line"
          id="tspan88553"
-         style="stroke-width:0.264583"></tspan></text>
+         style="stroke-width:0.264583" /></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -847,144 +853,107 @@
        y="0"><tspan
          x="2110.8574"
          y="-28.714844"
-         id="tspan144937"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144935"> کد طرح عدد هست یا هر چیزی میتواند باشد؟ هر مقداری میتونه داشته باشه هم حروف هم اعداد
+         id="tspan2407"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2405"> کد طرح عدد هست یا هر چیزی میتواند باشد؟ هر مقداری میتونه داشته باشه هم حروف هم اعداد -&gt; اوکی
 </tspan></tspan><tspan
          x="2110.8574"
          y="-8.7148438"
-         id="tspan144953"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144939">- سایز فرش باید به صورت </tspan><tspan
+         id="tspan2423"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2409">- سایز فرش باید به صورت </tspan><tspan
            dx="-32.445312"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144941">۲.۵</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2411">۲.۵</tspan><tspan
            dx="-5.0859375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144943">*</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2413">*</tspan><tspan
            dx="-38.273438"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144945">۳.۵</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2415">۳.۵</tspan><tspan
            dx="-5.0859375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144947"> نمایش داده شود یا به صورت </tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2417"> نمایش داده شود یا به صورت </tspan><tspan
            dx="-18.765625"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144949">۹</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2419">۹</tspan><tspan
            dx="8.59375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144951"> متری؟ سایز فرش در حالت استاندارد که کاربر انتخاب </tspan></tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2421"> متری؟ سایز فرش در حالت استاندارد که کاربر انتخاب </tspan></tspan><tspan
          x="2110.8574"
          y="11.285156"
-         id="tspan144977"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144955">میکند به صورت </tspan><tspan
+         id="tspan2447"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2425">میکند به صورت </tspan><tspan
            dx="-27.359375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144957">۱۲</tspan><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144959">-</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2427">۱۲</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2429">-</tspan><tspan
            dx="-20.140625"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144961">۹</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2431">۹</tspan><tspan
            dx="8.59375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144963">-</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2433">-</tspan><tspan
            dx="-20.140625"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144965">۶</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2435">۶</tspan><tspan
            dx="8.59375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144967"> هست ولی در صورت وارد کردن مقدار دلخواه میتواند به صورت </tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2437"> هست ولی در صورت وارد کردن مقدار دلخواه میتواند به صورت </tspan><tspan
            dx="-32.445312"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144969">۱.۵</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2439">۱.۵</tspan><tspan
            dx="-5.0859375"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144971">*</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2441">*</tspan><tspan
            dx="-46.867188"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144973">۲.۲۵</tspan><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2443">۲.۲۵</tspan><tspan
            dx="-13.679688"
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144975"> وارد کند.
+           style="text-align:start;direction:rtl"
+           id="tspan2445"> وارد کند. -&gt; اوکی
 </tspan></tspan><tspan
          x="2110.8574"
          y="31.285156"
-         id="tspan144981"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144979">- نیاز به توضیحات داریم یا نه؟
+         id="tspan2451"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2449">- نیاز به توضیحات داریم یا نه؟ اره خوبه داشته باشیم -&gt; اوکی
 </tspan></tspan><tspan
          x="2110.8574"
          y="51.285156"
-         id="tspan144985"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144983">قابلیت سرچ کردن روی محصولات اضافه شده؟
+         id="tspan2455"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2453">- قابلیت سرچ کردن روی محصولات اضافه شده؟
 </tspan></tspan><tspan
          x="2110.8574"
          y="71.285156"
-         id="tspan144989"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144987">شیسبشسی
+         id="tspan2459"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2457">- انتخاب کردن شانه فرش
 </tspan></tspan><tspan
          x="2110.8574"
          y="91.285156"
-         id="tspan144993"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144991">
+         id="tspan2463"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2461">- هر محصول میتواند چند رنگ و چند سایز داشته باشد و برای هر رنگ تعدادی عکس آپلود شود
 </tspan></tspan><tspan
          x="2110.8574"
          y="111.28516"
-         id="tspan144997"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144995">شبشسبی
+         id="tspan2467"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2465">- بررسی کردن فرمت اکسل
 </tspan></tspan><tspan
          x="2110.8574"
          y="131.28516"
-         id="tspan145001"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan144999">شسی
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="151.28516"
-         id="tspan145005"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145003">ب
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="171.28516"
-         id="tspan145009"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145007">شسیب
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="191.28516"
-         id="tspan145013"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145011">شسی
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="211.28516"
-         id="tspan145017"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145015">ب
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="231.28516"
-         id="tspan145021"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145019">شسیب
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="251.28516"
-         id="tspan145025"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145023">شسی
-</tspan></tspan><tspan
-         x="2110.8574"
-         y="271.28516"
-         id="tspan145029"><tspan
-           style="text-align:start;direction:rtl;text-anchor:start"
-           id="tspan145027">ب</tspan></tspan></text>
+         id="tspan2471"><tspan
+           style="text-align:start;direction:rtl"
+           id="tspan2469">- چه کسی محصول را اضافه کرده است را ذخیره کنیم؟</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text10729"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect10731)" />
   </g>
 </svg>

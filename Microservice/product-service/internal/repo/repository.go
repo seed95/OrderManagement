@@ -4,7 +4,7 @@ import (
 	"Product/internal/model"
 )
 
-type CarpetRepo interface {
+type ProductRepo interface {
 	CreateCarpet(p *model.Product) error
-	GetAllCarpets() ([]model.Product, error)
+	GetAllCarpets(companyId uint) ([]model.Product, error)
 }

@@ -50,15 +50,15 @@ var (
 		code:    StatusUnknown,
 	}
 
-	NilCarpet = serviceError{
-		message: "nil_carpet",
+	NilProduct = serviceError{
+		message: "nil_product",
 		code:    http.StatusBadRequest,
 	}
 )
 
 // Create error message formats
 var (
-	CreateProductRepoErrorFormat = "[ERROR] failed to create carpet repo, error: %v\n"
+	CreateProductRepoErrorFormat = "[ERROR] failed to create product repo, error: %v\n"
 )
 
 func (se *serviceError) SetDesc(desc string) {
