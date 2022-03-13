@@ -1,13 +1,13 @@
 package product
 
 import (
-	"Product/internal"
-	"Product/internal/derror"
-	"Product/internal/model"
-	"Product/internal/repo"
-	"Product/internal/repo/product/schema"
 	"errors"
 	"fmt"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal/derror"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal/model"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal/repo"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal/repo/product/schema"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

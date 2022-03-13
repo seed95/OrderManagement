@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Product/internal"
-	"Product/internal/repo/product"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal/repo/product"
 	nativeLog "log"
 	"os"
 )

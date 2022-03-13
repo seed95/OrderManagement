@@ -1,7 +1,7 @@
 package repo
 
 import (
-	"Product/internal/model"
+	"github.com/seed95/OrderManagement/Microservice/product-service/internal/model"
 )
 
 type ProductRepo interface {
