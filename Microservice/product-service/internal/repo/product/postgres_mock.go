@@ -16,11 +16,11 @@ func NewProductRepoMock() (*productRepo, error) {
 		return nil, err
 	}
 
-	if err := mock.db.Exec("TRUNCATE tbl_theme,tbl_dimension,tbl_product;").Error; err != nil {
+	if err := mock.migration(); err != nil {
 		return nil, err
 	}
 
-	if err := mock.migration(); err != nil {
+	if err := mock.db.Exec("TRUNCATE tbl_theme,tbl_dimension,tbl_product;").Error; err != nil {
 		return nil, err
 	}
 

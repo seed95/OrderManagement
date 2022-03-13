@@ -16,13 +16,13 @@ type (
 	}
 
 	Dimension struct {
-		Id        uint
+		gorm.Model
 		ProductId uint   `gorm:"uniqueIndex:dimension_unique_id"`
 		Size      string `gorm:"uniqueIndex:dimension_unique_id"`
 	}
 
 	Theme struct {
-		Id        uint   `gorm:"column:id"`
+		gorm.Model
 		ProductId uint   `gorm:"uniqueIndex:theme_unique_id"`
 		Color     string `gorm:"uniqueIndex:theme_unique_id"`
 	}
@@ -66,29 +66,3 @@ func GetThemes(product *model.Product) []Theme {
 
 	return result
 }
-
-//func ProductToSchema(c *Product) *model.Product {
-//	return &model.Product{
-//		DesignCode: c.DesignCode,
-//		Colors:     c.Color,
-//		Dimensions: []string{c.Dimension},
-//	}
-//}
-//
-//func ProductToCarpets(c *model.Product) []Product {
-//	if len(c.Dimensions) == 0 {
-//		return []Product{{}}
-//	}
-//
-//	result := make([]Product, len(c.Dimensions))
-//
-//	for i, s := range c.Dimensions {
-//		result[i] = Product{
-//			DesignCode: c.DesignCode,
-//			Color:      c.Colors,
-//			Dimension:  s,
-//		}
-//	}
-//
-//	return result
-//}

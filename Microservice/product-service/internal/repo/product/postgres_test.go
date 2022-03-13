@@ -3,6 +3,7 @@ package product
 import (
 	"Product/internal/model"
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 	"testing"
 )
 
@@ -307,26 +308,89 @@ func TestGetAllCarpet_InvalidCompanyId(t *testing.T) {
 
 }
 
-//func TestDeleteProduct_Ok(t *testing.T) {
-//	repo, err := NewProductRepoMock()
-//	if err != nil {
-//		t.Fatal(err)
-//	}
-//
-//	companyId := uint(1)
-//
-//	p1 := model.Product{
-//		CompanyName: "Negin",
-//		CompanyId:   companyId,
-//		DesignCode:  "105",
-//		Colors:      []string{"قرمز", "آبی"},
-//		Dimensions:  []string{"6", "9"},
-//		Description: "توضیحات برای کد ۱۰۵",
-//	}
-//
-//	err = repo.CreateProduct(&p1)
-//	assert.Nil(t, err)
-//
-//	err = repo.DeleteProduct(companyId)
-//	assert.Nil(t, err)
-//}
+func TestDeleteProduct_Ok(t *testing.T) {
+	repo, err := NewProductRepoMock()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	companyId := uint(1)
+
+	p1 := model.Product{
+		CompanyName: "Negin",
+		CompanyId:   companyId,
+		DesignCode:  "105",
+		Colors:      []string{"قرمز", "آبی"},
+		Dimensions:  []string{"6", "9"},
+		Description: "توضیحات برای کد ۱۰۵",
+	}
+
+	p, err := repo.CreateProduct(&p1)
+	assert.Nil(t, err)
+	require.NotNil(t, p)
+	err = repo.DeleteProduct(p.Id)
+	assert.Nil(t, err)
+}
+
+func TestDeleteProduct_Empty(t *testing.T) {
+	repo, err := NewProductRepoMock()
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	companyId := uint(1)
+
+	t.Run("color", func(t *testing.T) {
+		p1 := model.Product{
+			CompanyName: "Negin",
+			CompanyId:   companyId,
+			DesignCode:  "105",
+			Colors:      []string{},
+			Dimensions:  []string{"6", "9"},
+			Description: "توضیحات برای کد ۱۰۵",
+		}
+
+		p, err := repo.CreateProduct(&p1)
+		assert.Nil(t, err)
+		require.NotNil(t, p)
+		err = repo.DeleteProduct(p.Id)
+		assert.Nil(t, err)
+	})
+
+	t.Run("size", func(t *testing.T) {
+		p1 := model.Product{
+			CompanyName: "Negin",
+			CompanyId:   companyId,
+			DesignCode:  "106",
+			Colors:      []string{"قرمز", "آبی"},
+			Dimensions:  []string{},
+			Description: "توضیحات برای کد ۱۰۶",
+		}
+
+		p, err := repo.CreateProduct(&p1)
+		assert.Nil(t, err)
+		require.NotNil(t, p)
+		err = repo.DeleteProduct(p.Id)
+		assert.Nil(t, err)
+
+	})
+
+	t.Run("color_size", func(t *testing.T) {
+		p1 := model.Product{
+			CompanyName: "Negin",
+			CompanyId:   companyId,
+			DesignCode:  "107",
+			Colors:      []string{},
+			Dimensions:  []string{},
+			Description: "توضیحات برای کد ۱۰۶",
+		}
+
+		p, err := repo.CreateProduct(&p1)
+		assert.Nil(t, err)
+		require.NotNil(t, p)
+		err = repo.DeleteProduct(p.Id)
+		assert.Nil(t, err)
+
+	})
+
+}

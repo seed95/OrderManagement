@@ -10,6 +10,7 @@ import (
 	"fmt"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 	"gorm.io/gorm/logger"
 	"strconv"
 
@@ -65,13 +66,11 @@ func (r *productRepo) connect() error {
 }
 
 func (r *productRepo) migration() error {
-
 	if err := r.db.AutoMigrate(&schema.Product{}, &schema.Dimension{}, &schema.Theme{}); err != nil {
 		return errors.New(fmt.Sprintf(derror.CreateProductRepoErrorFormat, err))
 	}
 
 	return nil
-
 }
 
 // CreateProduct add one row for each size and color of product
@@ -136,7 +135,11 @@ func (r *productRepo) GetAllCarpet(companyId uint) ([]model.Carpet, error) {
 	return carpets, nil
 }
 
+// DeleteProduct soft delete product and relations (associations)
 func (r *productRepo) DeleteProduct(productId uint) error {
-	//TODO implement me
-	panic("implement me")
+	if err := r.db.Select(clause.Associations).Delete(&schema.Product{Model: gorm.Model{ID: productId}}, productId).Error; err != nil {
+		return derror.New(derror.InternalServer, err.Error())
+	}
+
+	return nil
 }
